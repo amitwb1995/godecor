@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Go Decor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+            fontfamily: {
+              body: ["Old Standard TT"],
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container flex flex-row max-w-[100%] mx-auto bg-black py-3">
+      <div class="flex items-center mx-auto max-w-[50%] text-white text-2xl">
+        <a href=""><i class="fa-solid fa-user text-white px-3"></i></a>
+        <a href=""><i class="fa-solid fa-heart text-white px-3"></i></a>
+        <a href=""><i class="fa-solid fa-bag-shopping text-white px-3"></i></a>
+      </div>
+
+      <form action="" class="relative w-max bg-white px-5 rounded-lg mx-auto">
+        <input
+          type="Search"
+          class="relative z-10 peer px-5 pt-2 bg-transparent roundede-xxl cursor-pointer focus:cursor-text"
+        />
+        <i class="fa-solid fa-magnifying-glass text-2xl pl-5"></i>
+      </form>
+    </div>
+    <div class="flex justify-center items-center max-w-[100%] mx-auto ">
+      <img src="./go decor logo.png" alt="" />
+    </div>
+    <div
+      class="flex flex-row justify-center items-center mx-auto bg-yellow-200 gap-5 py-3"
+    >
+      <a href="">HOME</a>
+      <a href="">SHOP</a>
+      <a href="">BLOG</a>
+      <a href="">GALLERY</a>
+      <a href="">PORTFOLIO</a>
+      <a href="">CONTACT US</a>
+    </div>
+    <!--banner section start-->
+    <section
+      class="w-[100%] h-[100vh] bg-[url('images/banner1.jpg')] bg-center bg-cover "
+    >
+      <div
+        class="flex justify-center items-center max-w-[100%] mx-auto text-center"
+      ></div>
+    </section>
+    <!--banner section end-->
+
+    <!--latest section start-->
+    <div
+      class="max-w-[1200px] grid grid-cols-3 justify-center items-center mx-auto pt-12 pb-12 gap-3"
+    >
+      <div>
+        <a href=""><img src="./images/card3.png" alt="" /></a>
+      </div>
+      <div>
+        <a href=""><img src="./images/card2.png" alt="" /></a>
+      </div>
+      <div>
+        <a href=""><img src="./images/card1.png" alt="" /></a>
+      </div>
+    </div>
+    <!--latest section end-->
+    <!--Featured section start-->
+
+    <div class="max-w-[400px] mx-auto">
+      <h1
+        class="text-4xl text-center border-t-2 border-b-2 mb-8 border-gray-700"
+      >
+        <span class="font-bold text-yellow-300">FEATURED</span> PRODUCTS
+      </h1>
+    </div>
+    <div
+      class="max-w-[880px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-5 px-20px pb-10"
+    >
+      <div
+        class="text-center shadow-xl drop-shadow-lg rounded border-2 border-b-4 border-gray-700"
+      >
+        <div class="overflow-hidden">
+          <img
+            src="./images/card01.png"
+            class="hover:scale-125 duration-1000"
+            alt="brahmatal"
+          />
+        </div>
+        <a href=""><p class="bg-yellow-200 my-3 mx-10 py-1">Add to cart</p></a>
+        <h1 class="text-xl font-serif">Amira wall light</h1>
+        <p class="text-1xl text-red-500 p-2">Rs. 4500</p>
+      </div>
+      <div
+        class="text-center shadow-lg rounded border-2 border-b-4 border-gray-700"
+      >
+        <div class="overflow-hidden">
+          <img
+            src="./images/card02.png"
+            class="hover:scale-125 duration-1000"
+            alt="brahmatal"
+          />
+        </div>
+        <a href=""><p class="bg-yellow-200 my-3 mx-10 py-1">Add to cart</p></a>
+        <h1 class="text-xl font-serif">Lexa Sofa Chair</h1>
+        <p class="text-1xl text-red-500 p-2">Rs. 15800</p>
+      </div>
+      <div
+        class="text-center shadow-lg rounded border-2 border-b-4 border-gray-700"
+      >
+        <div class="overflow-hidden">
+          <img
+            src="./images/card03.png"
+            class="hover:scale-125 duration-1000"
+            alt="brahmatal"
+          />
+        </div>
+        <a href=""><p class="bg-yellow-200 my-3 mx-10 py-1">Add to cart</p></a>
+        <h1 class="text-xl font-serif">Soft Store Table</h1>
+        <p class="text-1xl text-red-500 p-2">Rs. 3800</p>
+      </div>
+      <div
+        class="text-center shadow-lg rounded border-2 border-b-4 border-gray-700"
+      >
+        <div class="overflow-hidden">
+          <img
+            src="./images/card04.png"
+            class="hover:scale-125 duration-1000"
+            alt="brahmatal"
+          />
+        </div>
+        <a href=""><p class="bg-yellow-200 my-3 mx-10 py-1">Add to cart</p></a>
+        <h1 class="text-xl font-serif">Corner Plant Stand</h1>
+        <p class="text-1xl text-red-500 p-2">Rs. 2200</p>
+      </div>
+    </div>
+    <!--featured section end-->
+
+    <!--free shipping section start-->
+    <div
+      class="max-w-[100%] h-[100px] bg-[url('images/texture.png')] flex justify-center mx-auto items-center"
+    >
+      <div>
+        <i class="fa-solid fa-truck-fast text-white text-6xl mt-5 pr-20"></i>
+      </div>
+      <div>
+        <h1 class="text-white text-center text-2xl font-bold">
+          Register Now & Get Rs 10,000 Credits! <br />
+          <span class="text-yellow-300">Always enjoy free shipping with us.
+        </h1></span>
+      </div>
+    </div>
+
+    <!--free shipping section end-->
+
+<!--best deal section start-->
+    <div class="max-w-[400px] mx-auto">
+      <h1
+      class="text-4xl text-center border-t-2 border-b-2 mb-8 border-gray-700 mt-12"
+    >
+      <span class="font-bold text-yellow-300">BEST DEALS</span>   TODAY
+    </h1>
+    </div>
+    <div
+      class="max-w-[880px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-5 px-20px pb-10"
+    >
+      <div
+        class="text-center shadow-xl drop-shadow-lg rounded border-2 border-b-4 border-gray-700"
+      >
+        <div class="overflow-hidden">
+          <img
+            src="./images/bd1.png"
+            class="hover:scale-125 duration-1000"
+            alt="brahmatal"
+          />
+        </div>
+        <a href=""><p class="bg-yellow-200 my-3 mx-10 py-1">Add to cart</p></a>
+        <h1 class="text-xl font-serif">Dinning Curtains</h1>
+        <p class="text-1xl text-red-500 p-2">Get this on Rs. 599</p>
+      </div>
+      <div
+        class="text-center shadow-lg rounded border-2 border-b-4 border-gray-700"
+      >
+        <div class="overflow-hidden">
+          <img
+            src="./images/bd2.png"
+            class="hover:scale-125 duration-1000"
+            alt="brahmatal"
+          />
+        </div>
+        <a href=""><p class="bg-yellow-200 my-3 mx-10 py-1">Add to cart</p></a>
+        <h1 class="text-xl font-serif">DDR Book Shelf</h1>
+        <p class="text-1xl text-red-500 p-2">Get this on Rs. 15000</p>
+      </div>
+      <div
+        class="text-center shadow-lg rounded border-2 border-b-4 border-gray-700"
+      >
+        <div class="overflow-hidden">
+          <img
+            src="./images/bd3.png"
+            class="hover:scale-125 duration-1000"
+            alt="brahmatal"
+          />
+        </div>
+        <a href=""><p class="bg-yellow-200 my-3 mx-10 py-1">Add to cart</p></a>
+        <h1 class="text-xl font-serif">Austin Shoe Rack</h1>
+        <p class="text-1xl text-red-500 p-2">Get this on Rs. 19000</p>
+      </div>
+      <div
+        class="text-center shadow-lg rounded border-2 border-b-4 border-gray-700"
+      >
+        <div class="overflow-hidden">
+          <img
+            src="./images/bd4.png"
+            class="hover:scale-125 duration-1000"
+            alt="brahmatal"
+          />
+        </div>
+        <a href=""><p class="bg-yellow-200 my-3 mx-10 py-1">Add to cart</p></a>
+        <h1 class="text-xl font-serif">Divya Kashmiri Carpet</h1>
+        <p class="text-1xl text-red-500 p-2">Get this on Rs. 5999</p>
+      </div>
+    </div>
+    <!--best deal section end-->
+
+    <!--quatiton banner section start-->
+    <div class="max-w-[100%] h-[400px]">
+ <img src="./images/living1.png" alt="">
+    </div>
+    <!--quatiton banner section start-->
+
+    <!--Brand section start-->
+    <div class="max-w-[400px] mx-auto mb-4">
+      <h1
+      class="text-4xl text-center border-t-2 border-b-2 mb-8 border-gray-700 mt-1"
+    >
+      <span class="font-bold text-yellow-300">BEST BRANDS</span>   HERE
+    </h1>
+    </div>
+    <div class="grid max-w-[1000px] grid-cols-4 mx-auto items-center gap-2">
+      
+      <div><img src="./images/Wipro-logo.png" alt=""></div>
+      <div><img src="./images/durian.jpg" alt=""></div>
+      <div><img src="./images/godrej.png" alt=""></div>
+      <div class="ml-4"><img src="./images/zuari.png" alt=""></div>
+    </div>
+    <!--Brand section end-->
+
+    <!--Blog section start-->
+    <div class="max-w-[400px] mx-auto mt-6">
+      <h1
+      class="text-4xl text-center border-t-2 border-b-2 mb-8 border-gray-700 mt-1"
+    >
+      <span class="font-bold text-yellow-300">BLOGS</span>   HERE
+    </h1>
+    </div>
+    <div class="grid max-w-[1100px] mx-auto lg:grid-cols-4 md:grid-cols-2 gap-5 px-[30px] py-[30px]">
+      <a href=""><div><img src="./images/blog1.jpg" alt="">
+      <p>Thinking about redecorating your living room? Consider these tips</p>
+      </div></a>
+     <a href=""><div>
+        <img src="./images/blog2.jpg" alt="">
+      <p>How To Make Your Living Room Look Better (Dos and Don’ts)</p></div></a> 
+      <a href=""><div><img src="./images/blog3.jpg" alt="">
+      <p>91 Kitchen Tricks and Tips From Our Expert Cooks</p>
+    </div></a>
+      <a href=""><div><img src="./images/blog4.jpg" alt="">
+      <p>12 Tips for Designing a Contemporary Living Room</p>
+    </div></a>
+    </div>
+    <!--Blog section end-->
+
+    <!--subscribe section start-->
+
+    <div class="max-w-[100%] h-[100px] grid grid-cols-2 justify-center items-center bg-zinc-400">
+      <div class="flex flex-col items-center text-white">
+        <h1 class="text-2xl font-bold ">NEED HELP ? CALL OUR AWARD-WINNING</h1>
+        <p>SUPPORT TEAM 24/7 AT (91) 8759 864 456</p>
+       
+      </div>
+    
+<div>
+<input 
+type="text"
+placeholder="Email"
+class="border-2 rounded-lg w-[50%] h-12 px-4" 
+>
+<button class="bg-blue-500 text-white rounded-md hover:bg-green-600 font-semibold px-4 py-3 ">
+  Subscribe
+
+</button>
+        </div>
+  
+    </div>
+    <!--subscribe section end-->
+
+    <!--last section start-->
+    <div class="m-w-[100%] text-white font-semibold h-[350px] flex flex-row-2 justify-center items-center text-center bg-[url('images/banner1.jpg')] font-serif ">
+      <div class="flex flex-row-4 relative justify-center pb-[100px] gap-x-12 ">
+        <div class="text-left" >
+          <h1 class="border-b-4 border-solid  tracking-normal hover:tracking-wide ">OUR SERVICES</h1>
+               <ul class="py-4">
+            <li class="py-1">Delivery Information</li>
+            <li class="py-1">Returns</li>
+            <li class="py-1">Terms & Conditions</li>
+            <li class="py-1">Shipping & Refund</li>
+            <li class="py-1">Specials</li>
+          </ul>
+       
+        </div>
+        <div class="text-left" >
+          <h1 class="border-b-4 border-solid tracking-normal hover:tracking-wide ">EXTRA</h1>
+          <ul class="py-4">
+            <li class="py-1">Contact Us</li>
+            <li class="py-1">Returns</li>
+            <li class="py-1">Special</li>
+            <li class="py-1">Gift Voucher</li>
+            <li class="py-1">Brands</li>
+          </ul>
+        </div>
+        <div class="text-left">
+          <h1 class="border-b-4 border-solid tracking-normal hover:tracking-wide">MY ACCOUNT</h1>
+          <ul class="py-4 text-xsm">
+            <li class="py-1">Profile</li>
+            <li class="py-1">My Order</li>
+            <li class="py-1">My Address</li>
+            <li class="py-1">My Credit Slips</li>
+          </ul>
+        </div>
+        <div class="text-left">
+          <h1 class="border-b-4 border-solid tracking-normal hover:tracking-wide">CONTACT US</h1>
+          <ul class="py-4">
+            <li class="py-1">Go Decor Pvt. Ltd.</li>
+            <li class="py-1">Kolkata</li>
+            <li class="py-1">+91 8759 868 456</li>
+            <li class="py-1">contact@godecor.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid grid-row-2 relative justify-center">
+        <div>
+          <h1>DOWNLOAD APP NOW</h1>
+
+        </div>
+        <div><h1>FOLLOW US</h1></div>
+      </div>
+    </div>
+    <!--last section end-->
+    <script src="script.js">
+
+    </script>
+  </body>
+</html>
